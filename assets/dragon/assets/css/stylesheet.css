@@ -1,0 +1,327 @@
+html,
+body{
+    background:#0B1A26;
+    box-sizing: border-box;
+    margin:0;
+    max-width:1000px;
+    max-height:auto;
+    font-family: Lucida Console,Lucida Sans Typewriter, monaco,
+	Bitstream Vera Sans Mono,monospace;
+}
+
+/* MAIN COLORS */
+.Abstract-flight-in-space-hyper-jump-3d-illustration-1-hex { color: #123159; }
+.Abstract-flight-in-space-hyper-jump-3d-illustration-2-hex { color: #3D9DF2; }
+.Abstract-flight-in-space-hyper-jump-3d-illustration-3-hex { color: #102940; }
+.Abstract-flight-in-space-hyper-jump-3d-illustration-4-hex { color: #0B1A26; }
+.Abstract-flight-in-space-hyper-jump-3d-illustration-5-hex { color: #5CF2F2; }
+/* LINK AND TABLE COLORS */
+.evening-on-the-beach-1-hex { color: #F3FEB0; }
+.evening-on-the-beach-2-hex { color: #FEA443; }
+.evening-on-the-beach-3-hex { color: #705E78; }
+.evening-on-the-beach-4-hex { color: #A5AAA3; }
+.evening-on-the-beach-5-hex { color: #812F33; }
+
+.banner {
+    background:#102940;
+    position: relative;
+    padding:12px;
+    max-width: 1000px;
+    height:75px;
+}
+#nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+h1 { 
+    font-family: "Lucida Console", "Lucida Sans Typewriter",
+    monaco, "Bitstream Vera Sans Mono", monospace; font-size: 24px;
+    font-style: normal; font-variant: normal; font-weight: 700;
+    line-height: 24px; color: #3D9DF2; text-decoration: underline;
+    text-align: center;
+}
+
+
+h2 { 
+    font-family: "Lucida Console", "Lucida Sans Typewriter",
+    monaco, "Bitstream Vera Sans Mono", monospace; font-size: 18px;
+    font-style: normal; font-variant: normal; font-weight: 700;
+    line-height: 18px; color: #3D9DF2; 
+    text-align: center; text-decoration: underline;
+}
+
+h3 { font-family: "Lucida Console"; font-size: 14px;
+font-style: normal; font-variant: normal; font-weight: 700; line-height: 14px;
+color: #3D9DF2; text-align: center;}
+
+p { font-family: "Lucida Sans Typewriter"; font-size: 11px; font-style: normal;
+font-variant: normal; font-weight: 400; line-height: 11px; color: #3D9DF2;; } 
+
+figcaption { font-family: "Lucida Sans Typewriter"; font-size: 8px;
+color: #3D9DF2;;font-style: normal;
+font-variant: normal; font-weight: normal; line-height: 8px; }
+table, th, td{ border:.5px solid; background-color: #102940; border-color:#705E78; color:#A5AAA3;
+}
+h6 {
+    font-family: "Lucida Sans Typewriter"; font-size: 8px;
+color: #3D9DF2;;font-style: normal;
+font-variant: normal; font-weight: normal;
+}
+a:link { color:#FEA443;
+}
+a:visited { color:#812F33;
+}
+a:hover { color:#F3FEB0;
+}
+a:active { color:#705E78;
+}
+
+.intro {
+    box-sizing: border-box;
+    border-color:#0B1A26;
+    border-style:solid;
+    position:relative;
+    margin-bottom:1px;
+}
+
+#heads {
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+
+#words {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5vw;
+    margin-right:5vw;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left:25vw;
+    width:50vw;
+}
+.cargo {
+    box-sizing: border-box;
+    border-color:#0B1A26;
+    border-style:solid;
+    position:relative;
+    margin-bottom:1px;
+   
+}
+
+#hcargo {
+    align-items:center;
+    text-align:center;
+}
+
+#resupply {
+    align-items:center;
+    text-align:center;
+}
+#meat1 {
+    display: flex;
+    flex-direction: row;
+   
+}
+#cockpit {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width:50vw;
+}
+#words2 {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.lab {
+    box-sizing: border-box;
+    border-color:#0B1A26;
+    border-style:solid;
+    position:relative;
+    margin-bottom:1px;
+   
+}
+
+#dlab {
+    align-items:center;
+    text-align:center;
+}
+
+#micro {
+    align-items:center;
+    text-align:center;
+}
+
+#meat2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#wee {
+    display:flex;
+    align-items: flex-start;
+    max-width:50vw;
+    margin-top:12px;
+    margin-bottom:13px;
+}
+#words3 {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.crew {
+    box-sizing: border-box;
+    border-color:#0B1A26;
+    border-style:solid;
+    position:relative;
+    margin-bottom:1px;
+}
+
+#tcrew {
+    align-content:center;
+    text-align:center;
+}
+
+#humans {
+    text-align: center;
+    align-content:center;
+}
+
+#meat3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#interior {
+    display:flex;
+    align-items: flex-start;
+    max-width:50vw;
+    margin-top:12px;
+    margin-bottom:13px;
+}
+
+#words4 {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.spacex {
+    box-sizing: border-box;
+    border-color:#0B1A26;
+    border-style:solid;
+    margin-bottom:1px;
+    
+}
+
+#elon {
+    width: 25vw;
+    display: flex;
+    align-content: center;
+    margin-left: 30vw;
+}
+#closelon {
+    display: flex;
+    flex-direction: column;
+}
+#words5 {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+#table {
+    display: flex;
+    align-content:center;
+    background-color:#812F33;
+    margin-left:16vw;
+    margin-right:16vw;
+    margin-bottom:3vw;
+}
+
+.contact {
+    box-sizing:border-box;
+    font-family: "Lucida Console", "Lucida Sans Typewriter",
+    monaco, "Bitstream Vera Sans Mono",
+    monospace; font-size: 12px;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700;
+    line-height: 12px;
+    color: #812F33;
+    text-decoration: underline;
+    display: flex;
+    align-content:center;
+}    
+#animals {
+    display:flex;
+    flex-direction:row;
+}
+
+#ape {
+    display:flex;
+    align-content:flex-start;
+    max-width:50vw;
+    height:auto;
+    margin-left:-3vw;
+    
+}
+#frog {
+    display:flex;
+    align-content:center;
+    max-width:50vw;
+    height:auto;
+    margin-right:-1vw;
+    float: right;
+    
+    
+}
+
+#contactbox {
+    border:solid;
+    display: flex;
+    flex-direction: column;
+    margin-left:25vw;
+    text-align:center;
+    margin-top:60vh;
+}
+
+.mine {
+    color:#F3FEB0;
+    text-decoration: underline;
+}
+
+.theirs {
+    display:flex;
+    align-items:center;
+    width:50vw;
+    background-color:#812F33;
+}
+#me {
+    text-align:center;
+}
+#colophon { 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#102940;
+}
+#tops {
+    margin-bottom:10px;
+}
