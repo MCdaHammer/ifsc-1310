@@ -1,0 +1,25 @@
+html,
+body{
+    background:#0B1A26;
+    box-sizing: border-box;
+    margin:0;
+    max-width:1000px;
+    max-height:auto;
+    font-family: Lucida Console,Lucida Sans Typewriter, monaco,
+	Bitstream Vera Sans Mono,monospace;
+}
+
+h1 { 
+    font-family: "Lucida Console", "Lucida Sans Typewriter",
+    monaco, "Bitstream Vera Sans Mono", monospace; font-size: 24px;
+    font-style: normal; font-variant: normal; font-weight: 700;
+    line-height: 24px; color: #3D9DF2; text-decoration: underline;
+    text-align: center;
+}
+
+#ape {
+    max-width: 50vw;
+    max-height: auto;
+    margin-top: 20px;
+    margin-left: 25vw;
+}
